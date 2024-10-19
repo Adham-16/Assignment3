@@ -56,7 +56,7 @@ h3 {
 
 /* ************************************************ */
 .landing {
-  background-image: url("/img/hero_1.jpg.webp");
+  background-image: url("../img/hero_1.jpg.webp");
   background-size: cover;
   background-position: center center;
   height: 100vh;
