@@ -371,6 +371,7 @@ h3 {
 }
 .Sixth .Customer {
   display: flex;
+  flex-wrap: wrap;
 }
 .Customer-card {
   padding: 20px 15px;
@@ -385,8 +386,98 @@ h3 {
   color: #000;
   font-style: italic;
 }
+/* ********************************************************************** */
+.Seventh .container-Seventh {
+  padding: 127px 30px;
+  margin: 0 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Seventh .heading-Seventh {
+  text-align: center;
+  width: 65%;
+  margin-bottom: 40px;
+}
+.Seventh .heading-Seventh > h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.Seventh .heading-Seventh > p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 36px;
+}
+.Seventh .reviews-star i {
+  font-size: 15px;
+  color: #65c0ba;
+}
+.Seventh .text-decoration-none {
+  color: black;
+  font-size: 20px;
+}
+/* ************************************************************** */
+.footer-section {
+  background-color: #1a1a1a;
+  padding: 127px 30px;
+}
+.footer-section .row .definition > h3 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.footer-section .row .definition ul li a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+}
+.footer-section .row .definition ul li {
+  margin: 10px 0;
+}
+.footer-section .row .definition ul li a:hover {
+  color: #fff;
+}
+.footer-section .row .definition p {
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer-section .form-group .bg-transparent {
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 0;
+  position: relative;
+}
+.footer-section .form-group .bg-transparent::placeholder {
+  color: rgba(255, 255, 255, 0.2);
+  font-style: italic;
+}
+.footer-section .form-group button {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.footer-section .bordertop {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 19px;
+}
+.footer-section .bordertop p a i {
+  padding: 5px 10px;
+  color: rgba(255, 255, 255, 0.7);
+  transition: all 0.3s;
+}
+.footer-section .bordertop p a i:hover {
+  color: rgba(255, 255, 255, 0.9);
+}
+.footer-section .form-group button span {
+  color: white;
+}
+.footer-section a[target="_blank"] {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+}
 /* ***************************** */
-
+.colm-xs-12 {
+  width: 100%;
+}
 @media (max-width: 991.98px) {
   .landing .heading {
     font-size: 40px;
@@ -428,6 +519,32 @@ h3 {
     width: 650px;
     height: 350px;
   }
+  .five .container-five {
+    padding: 127px 0;
+    margin: 0 40px;
+  }
+  .five .heading-five {
+    text-align: center;
+    width: 80%;
+    margin-bottom: 40px;
+  }
+  .Sixth .heading-Sixth {
+    text-align: center;
+    width: 80%;
+    margin-bottom: 40px;
+  }
+  .Sixth .heading-Sixth > h2 {
+    font-size: 2.5rem;
+  }
+  .Seventh .container-Seventh {
+    padding: 127px 0;
+    margin: 0 40px;
+  }
+  .Seventh .heading-Seventh {
+    text-align: center;
+    width: 80%;
+    margin-bottom: 40px;
+  }
 }
 @media (max-width: 650px) {
   .welcome {
@@ -464,16 +581,49 @@ h3 {
     width: 10px;
     height: 10px;
   }
+  .five {
+    position: relative;
+    background-color: #65c0ba;
+    margin-top: -250px;
+    padding-top: 250px;
+    overflow: hidden;
+  }
+  .five .container-five {
+    padding: 127px 0;
+    margin: 0 20px;
+  }
+  .five .heading-five {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .five .heading-five > h2 {
+    font-size: 2.5rem;
+  }
+  .Sixth .container-Sixth {
+    padding: 127px 0;
+    margin: 0 20px;
+  }
+  .Sixth .heading-Sixth {
+    width: 100%;
+  }
+  .Seventh .container-Seventh {
+    padding: 127px 0;
+    margin: 0 20px;
+  }
+  .Seventh .heading-Seventh {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 40px;
+  }
 }
 @media (max-width: 400px) {
   .four .carousel .img-carousel {
-    width: 200px;
-    height: 100px;
+    width: 300px;
+    height: 200px;
   }
 }
-.colm-xs-12 {
-  width: 100%;
-}
+
 /* *************************************************** */
 @media (min-width: 768px) {
   .colm-md-6 {
