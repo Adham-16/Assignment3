@@ -346,6 +346,45 @@ h3 {
 .five .text-decoration-none:hover {
   color: #65c0ba;
 }
+/* ********************************************************************** */
+.Sixth {
+  background-color: #fafafa;
+}
+.Sixth .container-Sixth {
+  padding: 127px 40px;
+  margin: 0 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Sixth .heading-Sixth {
+  text-align: center;
+  width: 60%;
+  margin-bottom: 40px;
+}
+.Sixth .heading-Sixth > h2 {
+  font-size: 4.4rem;
+  font-weight: 500;
+  line-height: 70px;
+  margin-bottom: 30px;
+}
+.Sixth .Customer {
+  display: flex;
+}
+.Customer-card {
+  padding: 20px 15px;
+}
+.Sixth .rounded-circle {
+  width: 20%;
+}
+.Sixth blockquote {
+  line-height: 1.5;
+  font-family: "Mukta Mahee", arial, sans-serif;
+  font-size: 20px;
+  color: #000;
+  font-style: italic;
+}
 /* ***************************** */
 
 @media (max-width: 991.98px) {
