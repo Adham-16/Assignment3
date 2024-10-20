@@ -283,16 +283,50 @@ h3 {
   .welcome .right {
     width: 100%;
   }
+  .three .container-three {
+    padding: 127px 0;
+    margin: 0 40px;
+  }
+  .three .heading-three {
+    text-align: center;
+    width: 80%;
+    margin-bottom: 40px;
+  }
+  .four .heading-four {
+    text-align: center;
+    width: 80%;
+    margin-bottom: 20px;
+  }
 }
 @media (max-width: 650px) {
   .welcome {
     margin: 0;
   }
+  .three .container-three {
+    padding: 127px 0;
+    margin: 0 20px;
+  }
+  .three .heading-three {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .four .heading-four {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .four .heading-four > h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 70px;
+    margin-bottom: 15spx;
+  }
 }
 .col-xs-12 {
   width: 100%;
 }
-
+/* *************************************************** */
 @media (min-width: 768px) {
   .col-md-6 {
     width: 50%;
