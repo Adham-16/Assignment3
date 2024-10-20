@@ -36,7 +36,7 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 1;
+  z-index: 3;
 }
 .header > div {
   padding: 45px 15px;
@@ -48,10 +48,14 @@ h3 {
   line-height: 1;
   font-family: "Abril Fatface", times, serif;
   margin: 0;
+  position: relative;
+  z-index: 10;
+  cursor: pointer;
 }
 .svg-burger {
   width: 40px;
   color: white;
+  cursor: pointer;
 }
 
 /* ************************************************ */
@@ -189,20 +193,69 @@ h3 {
   border-top: 1px solid #e0e0e0;
 }
 .three .container-three {
-  padding: 127px 25px;
+  padding: 127px 30px;
   margin: 0 40px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .three .heading-three {
   text-align: center;
   width: 66%;
+  margin-bottom: 40px;
 }
 .three .heading-three > h2 {
   font-size: 2rem;
   font-weight: 500;
 }
 .three .heading-three > p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 36px;
+}
+.row {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.content .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+}
+.content .card img {
+  width: 70px;
+  margin-bottom: 20px;
+}
+.content .card h3 {
+  font-size: 1.75rem;
+  font-weight: 400;
+}
+/* ********************************************************************** */
+.four .container-four {
+  padding: 127px 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.four .heading-four {
+  text-align: center;
+  width: 60%;
+  margin-bottom: 40px;
+}
+.four .heading-four > h2 {
+  font-size: 4.4rem;
+  font-weight: 500;
+  line-height: 70px;
+  margin-bottom: 30px;
+}
+.four .heading-four > p {
   font-size: 20px;
   font-weight: 300;
   line-height: 36px;
